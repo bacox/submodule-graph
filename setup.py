@@ -1,5 +1,8 @@
 import setuptools
 
+def install_requires():
+    return ['click', 'pydot', 'configparser']
+
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
@@ -12,7 +15,7 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/bacox/submodule-graph",
-    packages=setuptools.find_packages(),
+    packages=install_requires(),
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
