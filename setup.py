@@ -8,7 +8,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="submodulegraph",
-    version="0.1.5",
+    version="1.0.0",
     author="Bart Cox",
     author_email="bartcox93@gmail.com",
     py_modules=['submodulegraph'],
